@@ -13,28 +13,40 @@
 		<Item Name="command_disable.ctl" Type="VI" URL="../DataTypes/command_disable.ctl"/>
 		<Item Name="command_enable.ctl" Type="VI" URL="../DataTypes/command_enable.ctl"/>
 		<Item Name="command_exitControl.ctl" Type="VI" URL="../DataTypes/command_exitControl.ctl"/>
-		<Item Name="command_homeLinearStage.ctl" Type="VI" URL="../DataTypes/command_homeLinearStage.ctl"/>
 		<Item Name="command_moveLinearStage.ctl" Type="VI" URL="../DataTypes/command_moveLinearStage.ctl"/>
+		<Item Name="command_setupSpectrograph.ctl" Type="VI" URL="../DataTypes/command_setupSpectrograph.ctl"/>
 		<Item Name="command_standby.ctl" Type="VI" URL="../DataTypes/command_standby.ctl"/>
 		<Item Name="command_start.ctl" Type="VI" URL="../DataTypes/command_start.ctl"/>
 		<Item Name="command_stopAllAxis.ctl" Type="VI" URL="../DataTypes/command_stopAllAxis.ctl"/>
+		<Item Name="detailedState.ctl" Type="VI" URL="../DataTypes/detailedState.ctl"/>
+		<Item Name="disperser.ctl" Type="VI" URL="../DataTypes/disperser.ctl"/>
+		<Item Name="disperserPosition.ctl" Type="VI" URL="../DataTypes/disperserPosition.ctl"/>
+		<Item Name="filter.ctl" Type="VI" URL="../DataTypes/filter.ctl"/>
+		<Item Name="filterPosition.ctl" Type="VI" URL="../DataTypes/filterPosition.ctl"/>
+		<Item Name="fwState.ctl" Type="VI" URL="../DataTypes/fwState.ctl"/>
+		<Item Name="gwState.ctl" Type="VI" URL="../DataTypes/gwState.ctl"/>
 		<Item Name="logevent.ctl" Type="VI" URL="../DataTypes/logevent.ctl"/>
 		<Item Name="logevent_appliedSettingsMatchStart.ctl" Type="VI" URL="../DataTypes/logevent_appliedSettingsMatchStart.ctl"/>
 		<Item Name="logevent_detailedState.ctl" Type="VI" URL="../DataTypes/logevent_detailedState.ctl"/>
 		<Item Name="logevent_disperserInPosition.ctl" Type="VI" URL="../DataTypes/logevent_disperserInPosition.ctl"/>
+		<Item Name="logevent_disperserReportedPosition.ctl" Type="VI" URL="../DataTypes/logevent_disperserReportedPosition.ctl"/>
 		<Item Name="logevent_errorCode.ctl" Type="VI" URL="../DataTypes/logevent_errorCode.ctl"/>
 		<Item Name="logevent_filterInPosition.ctl" Type="VI" URL="../DataTypes/logevent_filterInPosition.ctl"/>
+		<Item Name="logevent_filterReportedPosition.ctl" Type="VI" URL="../DataTypes/logevent_filterReportedPosition.ctl"/>
+		<Item Name="logevent_fwState.ctl" Type="VI" URL="../DataTypes/logevent_fwState.ctl"/>
+		<Item Name="logevent_gwState.ctl" Type="VI" URL="../DataTypes/logevent_gwState.ctl"/>
 		<Item Name="logevent_heartbeat.ctl" Type="VI" URL="../DataTypes/logevent_heartbeat.ctl"/>
 		<Item Name="logevent_internalCommand.ctl" Type="VI" URL="../DataTypes/logevent_internalCommand.ctl"/>
 		<Item Name="logevent_linearStageInPosition.ctl" Type="VI" URL="../DataTypes/logevent_linearStageInPosition.ctl"/>
+		<Item Name="logevent_linearStageReportedPosition.ctl" Type="VI" URL="../DataTypes/logevent_linearStageReportedPosition.ctl"/>
 		<Item Name="logevent_loopTimeOutOfRange.ctl" Type="VI" URL="../DataTypes/logevent_loopTimeOutOfRange.ctl"/>
 		<Item Name="logevent_rejectedCommand.ctl" Type="VI" URL="../DataTypes/logevent_rejectedCommand.ctl"/>
-		<Item Name="logevent_reportedDisperserPosition.ctl" Type="VI" URL="../DataTypes/logevent_reportedDisperserPosition.ctl"/>
-		<Item Name="logevent_reportedFilterPosition.ctl" Type="VI" URL="../DataTypes/logevent_reportedFilterPosition.ctl"/>
 		<Item Name="logevent_settingVersions.ctl" Type="VI" URL="../DataTypes/logevent_settingVersions.ctl"/>
+		<Item Name="logevent_spectrographInstrumentInPosition.ctl" Type="VI" URL="../DataTypes/logevent_spectrographInstrumentInPosition.ctl"/>
 		<Item Name="logevent_summaryState.ctl" Type="VI" URL="../DataTypes/logevent_summaryState.ctl"/>
 		<Item Name="logevent_timeout.ctl" Type="VI" URL="../DataTypes/logevent_timeout.ctl"/>
 		<Item Name="loopTime.ctl" Type="VI" URL="../DataTypes/loopTime.ctl"/>
+		<Item Name="summaryState.ctl" Type="VI" URL="../DataTypes/summaryState.ctl"/>
 		<Item Name="timestamp.ctl" Type="VI" URL="../DataTypes/timestamp.ctl"/>
 	</Item>
 	<Item Name="SALLV_Spectrograph.so" Type="Document" URL="../SALLV_Spectrograph.so"/>
@@ -46,8 +58,8 @@
 	<Item Name="Spectrograph_acceptCommand_disable.vi" Type="VI" URL="../VIs/Spectrograph_acceptCommand_disable.vi"/>
 	<Item Name="Spectrograph_acceptCommand_enable.vi" Type="VI" URL="../VIs/Spectrograph_acceptCommand_enable.vi"/>
 	<Item Name="Spectrograph_acceptCommand_exitControl.vi" Type="VI" URL="../VIs/Spectrograph_acceptCommand_exitControl.vi"/>
-	<Item Name="Spectrograph_acceptCommand_homeLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_acceptCommand_homeLinearStage.vi"/>
 	<Item Name="Spectrograph_acceptCommand_moveLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_acceptCommand_moveLinearStage.vi"/>
+	<Item Name="Spectrograph_acceptCommand_setupSpectrograph.vi" Type="VI" URL="../VIs/Spectrograph_acceptCommand_setupSpectrograph.vi"/>
 	<Item Name="Spectrograph_acceptCommand_standby.vi" Type="VI" URL="../VIs/Spectrograph_acceptCommand_standby.vi"/>
 	<Item Name="Spectrograph_acceptCommand_start.vi" Type="VI" URL="../VIs/Spectrograph_acceptCommand_start.vi"/>
 	<Item Name="Spectrograph_acceptCommand_stopAllAxis.vi" Type="VI" URL="../VIs/Spectrograph_acceptCommand_stopAllAxis.vi"/>
@@ -57,8 +69,8 @@
 	<Item Name="Spectrograph_ackCommand_disable.vi" Type="VI" URL="../VIs/Spectrograph_ackCommand_disable.vi"/>
 	<Item Name="Spectrograph_ackCommand_enable.vi" Type="VI" URL="../VIs/Spectrograph_ackCommand_enable.vi"/>
 	<Item Name="Spectrograph_ackCommand_exitControl.vi" Type="VI" URL="../VIs/Spectrograph_ackCommand_exitControl.vi"/>
-	<Item Name="Spectrograph_ackCommand_homeLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_ackCommand_homeLinearStage.vi"/>
 	<Item Name="Spectrograph_ackCommand_moveLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_ackCommand_moveLinearStage.vi"/>
+	<Item Name="Spectrograph_ackCommand_setupSpectrograph.vi" Type="VI" URL="../VIs/Spectrograph_ackCommand_setupSpectrograph.vi"/>
 	<Item Name="Spectrograph_ackCommand_standby.vi" Type="VI" URL="../VIs/Spectrograph_ackCommand_standby.vi"/>
 	<Item Name="Spectrograph_ackCommand_start.vi" Type="VI" URL="../VIs/Spectrograph_ackCommand_start.vi"/>
 	<Item Name="Spectrograph_ackCommand_stopAllAxis.vi" Type="VI" URL="../VIs/Spectrograph_ackCommand_stopAllAxis.vi"/>
@@ -76,10 +88,10 @@
 	<Item Name="Spectrograph_cancelCallback_command_enableackcmd.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_command_enableackcmd.vi"/>
 	<Item Name="Spectrograph_cancelCallback_command_exitControl.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_command_exitControl.vi"/>
 	<Item Name="Spectrograph_cancelCallback_command_exitControlackcmd.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_command_exitControlackcmd.vi"/>
-	<Item Name="Spectrograph_cancelCallback_command_homeLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_command_homeLinearStage.vi"/>
-	<Item Name="Spectrograph_cancelCallback_command_homeLinearStageackcmd.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_command_homeLinearStageackcmd.vi"/>
 	<Item Name="Spectrograph_cancelCallback_command_moveLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_command_moveLinearStage.vi"/>
 	<Item Name="Spectrograph_cancelCallback_command_moveLinearStageackcmd.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_command_moveLinearStageackcmd.vi"/>
+	<Item Name="Spectrograph_cancelCallback_command_setupSpectrograph.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_command_setupSpectrograph.vi"/>
+	<Item Name="Spectrograph_cancelCallback_command_setupSpectrographackcmd.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_command_setupSpectrographackcmd.vi"/>
 	<Item Name="Spectrograph_cancelCallback_command_standby.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_command_standby.vi"/>
 	<Item Name="Spectrograph_cancelCallback_command_standbyackcmd.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_command_standbyackcmd.vi"/>
 	<Item Name="Spectrograph_cancelCallback_command_start.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_command_start.vi"/>
@@ -90,16 +102,20 @@
 	<Item Name="Spectrograph_cancelCallback_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_appliedSettingsMatchStart.vi"/>
 	<Item Name="Spectrograph_cancelCallback_logEvent_detailedState.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_detailedState.vi"/>
 	<Item Name="Spectrograph_cancelCallback_logEvent_disperserInPosition.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_disperserInPosition.vi"/>
+	<Item Name="Spectrograph_cancelCallback_logEvent_disperserReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_disperserReportedPosition.vi"/>
 	<Item Name="Spectrograph_cancelCallback_logEvent_errorCode.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_errorCode.vi"/>
 	<Item Name="Spectrograph_cancelCallback_logEvent_filterInPosition.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_filterInPosition.vi"/>
+	<Item Name="Spectrograph_cancelCallback_logEvent_filterReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_filterReportedPosition.vi"/>
+	<Item Name="Spectrograph_cancelCallback_logEvent_fwState.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_fwState.vi"/>
+	<Item Name="Spectrograph_cancelCallback_logEvent_gwState.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_gwState.vi"/>
 	<Item Name="Spectrograph_cancelCallback_logEvent_heartbeat.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_heartbeat.vi"/>
 	<Item Name="Spectrograph_cancelCallback_logEvent_internalCommand.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_internalCommand.vi"/>
 	<Item Name="Spectrograph_cancelCallback_logEvent_linearStageInPosition.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_linearStageInPosition.vi"/>
+	<Item Name="Spectrograph_cancelCallback_logEvent_linearStageReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_linearStageReportedPosition.vi"/>
 	<Item Name="Spectrograph_cancelCallback_logEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_loopTimeOutOfRange.vi"/>
 	<Item Name="Spectrograph_cancelCallback_logEvent_rejectedCommand.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_rejectedCommand.vi"/>
-	<Item Name="Spectrograph_cancelCallback_logEvent_reportedDisperserPosition.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_reportedDisperserPosition.vi"/>
-	<Item Name="Spectrograph_cancelCallback_logEvent_reportedFilterPosition.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_reportedFilterPosition.vi"/>
 	<Item Name="Spectrograph_cancelCallback_logEvent_settingVersions.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_settingVersions.vi"/>
+	<Item Name="Spectrograph_cancelCallback_logEvent_spectrographInstrumentInPosition.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_spectrographInstrumentInPosition.vi"/>
 	<Item Name="Spectrograph_cancelCallback_logEvent_summaryState.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_summaryState.vi"/>
 	<Item Name="Spectrograph_cancelCallback_logEvent_timeout.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_logEvent_timeout.vi"/>
 	<Item Name="Spectrograph_cancelCallback_loopTime.vi" Type="VI" URL="../VIs/Spectrograph_cancelCallback_loopTime.vi"/>
@@ -108,32 +124,40 @@
 	<Item Name="Spectrograph_flushSamplesEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_appliedSettingsMatchStart.vi"/>
 	<Item Name="Spectrograph_flushSamplesEvent_detailedState.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_detailedState.vi"/>
 	<Item Name="Spectrograph_flushSamplesEvent_disperserInPosition.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_disperserInPosition.vi"/>
+	<Item Name="Spectrograph_flushSamplesEvent_disperserReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_disperserReportedPosition.vi"/>
 	<Item Name="Spectrograph_flushSamplesEvent_errorCode.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_errorCode.vi"/>
 	<Item Name="Spectrograph_flushSamplesEvent_filterInPosition.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_filterInPosition.vi"/>
+	<Item Name="Spectrograph_flushSamplesEvent_filterReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_filterReportedPosition.vi"/>
+	<Item Name="Spectrograph_flushSamplesEvent_fwState.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_fwState.vi"/>
+	<Item Name="Spectrograph_flushSamplesEvent_gwState.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_gwState.vi"/>
 	<Item Name="Spectrograph_flushSamplesEvent_heartbeat.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_heartbeat.vi"/>
 	<Item Name="Spectrograph_flushSamplesEvent_internalCommand.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_internalCommand.vi"/>
 	<Item Name="Spectrograph_flushSamplesEvent_linearStageInPosition.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_linearStageInPosition.vi"/>
+	<Item Name="Spectrograph_flushSamplesEvent_linearStageReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_linearStageReportedPosition.vi"/>
 	<Item Name="Spectrograph_flushSamplesEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_loopTimeOutOfRange.vi"/>
 	<Item Name="Spectrograph_flushSamplesEvent_rejectedCommand.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_rejectedCommand.vi"/>
-	<Item Name="Spectrograph_flushSamplesEvent_reportedDisperserPosition.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_reportedDisperserPosition.vi"/>
-	<Item Name="Spectrograph_flushSamplesEvent_reportedFilterPosition.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_reportedFilterPosition.vi"/>
 	<Item Name="Spectrograph_flushSamplesEvent_settingVersions.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_settingVersions.vi"/>
+	<Item Name="Spectrograph_flushSamplesEvent_spectrographInstrumentInPosition.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_spectrographInstrumentInPosition.vi"/>
 	<Item Name="Spectrograph_flushSamplesEvent_summaryState.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_summaryState.vi"/>
 	<Item Name="Spectrograph_flushSamplesEvent_timeout.vi" Type="VI" URL="../VIs/Spectrograph_flushSamplesEvent_timeout.vi"/>
 	<Item Name="Spectrograph_getCurrentTime.vi" Type="VI" URL="../VIs/Spectrograph_getCurrentTime.vi"/>
 	<Item Name="Spectrograph_getEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_appliedSettingsMatchStart.vi"/>
 	<Item Name="Spectrograph_getEvent_detailedState.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_detailedState.vi"/>
 	<Item Name="Spectrograph_getEvent_disperserInPosition.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_disperserInPosition.vi"/>
+	<Item Name="Spectrograph_getEvent_disperserReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_disperserReportedPosition.vi"/>
 	<Item Name="Spectrograph_getEvent_errorCode.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_errorCode.vi"/>
 	<Item Name="Spectrograph_getEvent_filterInPosition.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_filterInPosition.vi"/>
+	<Item Name="Spectrograph_getEvent_filterReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_filterReportedPosition.vi"/>
+	<Item Name="Spectrograph_getEvent_fwState.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_fwState.vi"/>
+	<Item Name="Spectrograph_getEvent_gwState.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_gwState.vi"/>
 	<Item Name="Spectrograph_getEvent_heartbeat.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_heartbeat.vi"/>
 	<Item Name="Spectrograph_getEvent_internalCommand.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_internalCommand.vi"/>
 	<Item Name="Spectrograph_getEvent_linearStageInPosition.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_linearStageInPosition.vi"/>
+	<Item Name="Spectrograph_getEvent_linearStageReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_linearStageReportedPosition.vi"/>
 	<Item Name="Spectrograph_getEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_loopTimeOutOfRange.vi"/>
 	<Item Name="Spectrograph_getEvent_rejectedCommand.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_rejectedCommand.vi"/>
-	<Item Name="Spectrograph_getEvent_reportedDisperserPosition.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_reportedDisperserPosition.vi"/>
-	<Item Name="Spectrograph_getEvent_reportedFilterPosition.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_reportedFilterPosition.vi"/>
 	<Item Name="Spectrograph_getEvent_settingVersions.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_settingVersions.vi"/>
+	<Item Name="Spectrograph_getEvent_spectrographInstrumentInPosition.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_spectrographInstrumentInPosition.vi"/>
 	<Item Name="Spectrograph_getEvent_summaryState.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_summaryState.vi"/>
 	<Item Name="Spectrograph_getEvent_timeout.vi" Type="VI" URL="../VIs/Spectrograph_getEvent_timeout.vi"/>
 	<Item Name="Spectrograph_getNextSample_loopTime.vi" Type="VI" URL="../VIs/Spectrograph_getNextSample_loopTime.vi"/>
@@ -144,8 +168,8 @@
 	<Item Name="Spectrograph_getResponse_disable.vi" Type="VI" URL="../VIs/Spectrograph_getResponse_disable.vi"/>
 	<Item Name="Spectrograph_getResponse_enable.vi" Type="VI" URL="../VIs/Spectrograph_getResponse_enable.vi"/>
 	<Item Name="Spectrograph_getResponse_exitControl.vi" Type="VI" URL="../VIs/Spectrograph_getResponse_exitControl.vi"/>
-	<Item Name="Spectrograph_getResponse_homeLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_getResponse_homeLinearStage.vi"/>
 	<Item Name="Spectrograph_getResponse_moveLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_getResponse_moveLinearStage.vi"/>
+	<Item Name="Spectrograph_getResponse_setupSpectrograph.vi" Type="VI" URL="../VIs/Spectrograph_getResponse_setupSpectrograph.vi"/>
 	<Item Name="Spectrograph_getResponse_standby.vi" Type="VI" URL="../VIs/Spectrograph_getResponse_standby.vi"/>
 	<Item Name="Spectrograph_getResponse_start.vi" Type="VI" URL="../VIs/Spectrograph_getResponse_start.vi"/>
 	<Item Name="Spectrograph_getResponse_stopAllAxis.vi" Type="VI" URL="../VIs/Spectrograph_getResponse_stopAllAxis.vi"/>
@@ -157,24 +181,28 @@
 	<Item Name="Spectrograph_issueCommand_disable.vi" Type="VI" URL="../VIs/Spectrograph_issueCommand_disable.vi"/>
 	<Item Name="Spectrograph_issueCommand_enable.vi" Type="VI" URL="../VIs/Spectrograph_issueCommand_enable.vi"/>
 	<Item Name="Spectrograph_issueCommand_exitControl.vi" Type="VI" URL="../VIs/Spectrograph_issueCommand_exitControl.vi"/>
-	<Item Name="Spectrograph_issueCommand_homeLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_issueCommand_homeLinearStage.vi"/>
 	<Item Name="Spectrograph_issueCommand_moveLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_issueCommand_moveLinearStage.vi"/>
+	<Item Name="Spectrograph_issueCommand_setupSpectrograph.vi" Type="VI" URL="../VIs/Spectrograph_issueCommand_setupSpectrograph.vi"/>
 	<Item Name="Spectrograph_issueCommand_standby.vi" Type="VI" URL="../VIs/Spectrograph_issueCommand_standby.vi"/>
 	<Item Name="Spectrograph_issueCommand_start.vi" Type="VI" URL="../VIs/Spectrograph_issueCommand_start.vi"/>
 	<Item Name="Spectrograph_issueCommand_stopAllAxis.vi" Type="VI" URL="../VIs/Spectrograph_issueCommand_stopAllAxis.vi"/>
 	<Item Name="Spectrograph_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_appliedSettingsMatchStart.vi"/>
 	<Item Name="Spectrograph_logEvent_detailedState.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_detailedState.vi"/>
 	<Item Name="Spectrograph_logEvent_disperserInPosition.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_disperserInPosition.vi"/>
+	<Item Name="Spectrograph_logEvent_disperserReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_disperserReportedPosition.vi"/>
 	<Item Name="Spectrograph_logEvent_errorCode.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_errorCode.vi"/>
 	<Item Name="Spectrograph_logEvent_filterInPosition.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_filterInPosition.vi"/>
+	<Item Name="Spectrograph_logEvent_filterReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_filterReportedPosition.vi"/>
+	<Item Name="Spectrograph_logEvent_fwState.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_fwState.vi"/>
+	<Item Name="Spectrograph_logEvent_gwState.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_gwState.vi"/>
 	<Item Name="Spectrograph_logEvent_heartbeat.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_heartbeat.vi"/>
 	<Item Name="Spectrograph_logEvent_internalCommand.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_internalCommand.vi"/>
 	<Item Name="Spectrograph_logEvent_linearStageInPosition.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_linearStageInPosition.vi"/>
+	<Item Name="Spectrograph_logEvent_linearStageReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_linearStageReportedPosition.vi"/>
 	<Item Name="Spectrograph_logEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_loopTimeOutOfRange.vi"/>
 	<Item Name="Spectrograph_logEvent_rejectedCommand.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_rejectedCommand.vi"/>
-	<Item Name="Spectrograph_logEvent_reportedDisperserPosition.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_reportedDisperserPosition.vi"/>
-	<Item Name="Spectrograph_logEvent_reportedFilterPosition.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_reportedFilterPosition.vi"/>
 	<Item Name="Spectrograph_logEvent_settingVersions.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_settingVersions.vi"/>
+	<Item Name="Spectrograph_logEvent_spectrographInstrumentInPosition.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_spectrographInstrumentInPosition.vi"/>
 	<Item Name="Spectrograph_logEvent_summaryState.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_summaryState.vi"/>
 	<Item Name="Spectrograph_logEvent_timeout.vi" Type="VI" URL="../VIs/Spectrograph_logEvent_timeout.vi"/>
 	<Item Name="Spectrograph_monitorCommand_abort.vi" Type="VI" URL="../VIs/Spectrograph_monitorCommand_abort.vi"/>
@@ -183,8 +211,8 @@
 	<Item Name="Spectrograph_monitorCommand_disable.vi" Type="VI" URL="../VIs/Spectrograph_monitorCommand_disable.vi"/>
 	<Item Name="Spectrograph_monitorCommand_enable.vi" Type="VI" URL="../VIs/Spectrograph_monitorCommand_enable.vi"/>
 	<Item Name="Spectrograph_monitorCommand_exitControl.vi" Type="VI" URL="../VIs/Spectrograph_monitorCommand_exitControl.vi"/>
-	<Item Name="Spectrograph_monitorCommand_homeLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_monitorCommand_homeLinearStage.vi"/>
 	<Item Name="Spectrograph_monitorCommand_moveLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_monitorCommand_moveLinearStage.vi"/>
+	<Item Name="Spectrograph_monitorCommand_setupSpectrograph.vi" Type="VI" URL="../VIs/Spectrograph_monitorCommand_setupSpectrograph.vi"/>
 	<Item Name="Spectrograph_monitorCommand_standby.vi" Type="VI" URL="../VIs/Spectrograph_monitorCommand_standby.vi"/>
 	<Item Name="Spectrograph_monitorCommand_start.vi" Type="VI" URL="../VIs/Spectrograph_monitorCommand_start.vi"/>
 	<Item Name="Spectrograph_monitorCommand_stopAllAxis.vi" Type="VI" URL="../VIs/Spectrograph_monitorCommand_stopAllAxis.vi"/>
@@ -204,10 +232,10 @@
 	<Item Name="Spectrograph_registerCallback_command_enableackcmd.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_command_enableackcmd.vi"/>
 	<Item Name="Spectrograph_registerCallback_command_exitControl.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_command_exitControl.vi"/>
 	<Item Name="Spectrograph_registerCallback_command_exitControlackcmd.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_command_exitControlackcmd.vi"/>
-	<Item Name="Spectrograph_registerCallback_command_homeLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_command_homeLinearStage.vi"/>
-	<Item Name="Spectrograph_registerCallback_command_homeLinearStageackcmd.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_command_homeLinearStageackcmd.vi"/>
 	<Item Name="Spectrograph_registerCallback_command_moveLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_command_moveLinearStage.vi"/>
 	<Item Name="Spectrograph_registerCallback_command_moveLinearStageackcmd.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_command_moveLinearStageackcmd.vi"/>
+	<Item Name="Spectrograph_registerCallback_command_setupSpectrograph.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_command_setupSpectrograph.vi"/>
+	<Item Name="Spectrograph_registerCallback_command_setupSpectrographackcmd.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_command_setupSpectrographackcmd.vi"/>
 	<Item Name="Spectrograph_registerCallback_command_standby.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_command_standby.vi"/>
 	<Item Name="Spectrograph_registerCallback_command_standbyackcmd.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_command_standbyackcmd.vi"/>
 	<Item Name="Spectrograph_registerCallback_command_start.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_command_start.vi"/>
@@ -218,16 +246,20 @@
 	<Item Name="Spectrograph_registerCallback_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_appliedSettingsMatchStart.vi"/>
 	<Item Name="Spectrograph_registerCallback_logEvent_detailedState.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_detailedState.vi"/>
 	<Item Name="Spectrograph_registerCallback_logEvent_disperserInPosition.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_disperserInPosition.vi"/>
+	<Item Name="Spectrograph_registerCallback_logEvent_disperserReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_disperserReportedPosition.vi"/>
 	<Item Name="Spectrograph_registerCallback_logEvent_errorCode.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_errorCode.vi"/>
 	<Item Name="Spectrograph_registerCallback_logEvent_filterInPosition.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_filterInPosition.vi"/>
+	<Item Name="Spectrograph_registerCallback_logEvent_filterReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_filterReportedPosition.vi"/>
+	<Item Name="Spectrograph_registerCallback_logEvent_fwState.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_fwState.vi"/>
+	<Item Name="Spectrograph_registerCallback_logEvent_gwState.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_gwState.vi"/>
 	<Item Name="Spectrograph_registerCallback_logEvent_heartbeat.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_heartbeat.vi"/>
 	<Item Name="Spectrograph_registerCallback_logEvent_internalCommand.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_internalCommand.vi"/>
 	<Item Name="Spectrograph_registerCallback_logEvent_linearStageInPosition.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_linearStageInPosition.vi"/>
+	<Item Name="Spectrograph_registerCallback_logEvent_linearStageReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_linearStageReportedPosition.vi"/>
 	<Item Name="Spectrograph_registerCallback_logEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_loopTimeOutOfRange.vi"/>
 	<Item Name="Spectrograph_registerCallback_logEvent_rejectedCommand.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_rejectedCommand.vi"/>
-	<Item Name="Spectrograph_registerCallback_logEvent_reportedDisperserPosition.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_reportedDisperserPosition.vi"/>
-	<Item Name="Spectrograph_registerCallback_logEvent_reportedFilterPosition.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_reportedFilterPosition.vi"/>
 	<Item Name="Spectrograph_registerCallback_logEvent_settingVersions.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_settingVersions.vi"/>
+	<Item Name="Spectrograph_registerCallback_logEvent_spectrographInstrumentInPosition.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_spectrographInstrumentInPosition.vi"/>
 	<Item Name="Spectrograph_registerCallback_logEvent_summaryState.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_summaryState.vi"/>
 	<Item Name="Spectrograph_registerCallback_logEvent_timeout.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_logEvent_timeout.vi"/>
 	<Item Name="Spectrograph_registerCallback_loopTime.vi" Type="VI" URL="../VIs/Spectrograph_registerCallback_loopTime.vi"/>
@@ -238,24 +270,28 @@
 	<Item Name="Spectrograph_salCommander_disable.vi" Type="VI" URL="../VIs/Spectrograph_salCommander_disable.vi"/>
 	<Item Name="Spectrograph_salCommander_enable.vi" Type="VI" URL="../VIs/Spectrograph_salCommander_enable.vi"/>
 	<Item Name="Spectrograph_salCommander_exitControl.vi" Type="VI" URL="../VIs/Spectrograph_salCommander_exitControl.vi"/>
-	<Item Name="Spectrograph_salCommander_homeLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_salCommander_homeLinearStage.vi"/>
 	<Item Name="Spectrograph_salCommander_moveLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_salCommander_moveLinearStage.vi"/>
+	<Item Name="Spectrograph_salCommander_setupSpectrograph.vi" Type="VI" URL="../VIs/Spectrograph_salCommander_setupSpectrograph.vi"/>
 	<Item Name="Spectrograph_salCommander_standby.vi" Type="VI" URL="../VIs/Spectrograph_salCommander_standby.vi"/>
 	<Item Name="Spectrograph_salCommander_start.vi" Type="VI" URL="../VIs/Spectrograph_salCommander_start.vi"/>
 	<Item Name="Spectrograph_salCommander_stopAllAxis.vi" Type="VI" URL="../VIs/Spectrograph_salCommander_stopAllAxis.vi"/>
 	<Item Name="Spectrograph_salEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_appliedSettingsMatchStart.vi"/>
 	<Item Name="Spectrograph_salEvent_detailedState.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_detailedState.vi"/>
 	<Item Name="Spectrograph_salEvent_disperserInPosition.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_disperserInPosition.vi"/>
+	<Item Name="Spectrograph_salEvent_disperserReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_disperserReportedPosition.vi"/>
 	<Item Name="Spectrograph_salEvent_errorCode.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_errorCode.vi"/>
 	<Item Name="Spectrograph_salEvent_filterInPosition.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_filterInPosition.vi"/>
+	<Item Name="Spectrograph_salEvent_filterReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_filterReportedPosition.vi"/>
+	<Item Name="Spectrograph_salEvent_fwState.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_fwState.vi"/>
+	<Item Name="Spectrograph_salEvent_gwState.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_gwState.vi"/>
 	<Item Name="Spectrograph_salEvent_heartbeat.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_heartbeat.vi"/>
 	<Item Name="Spectrograph_salEvent_internalCommand.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_internalCommand.vi"/>
 	<Item Name="Spectrograph_salEvent_linearStageInPosition.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_linearStageInPosition.vi"/>
+	<Item Name="Spectrograph_salEvent_linearStageReportedPosition.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_linearStageReportedPosition.vi"/>
 	<Item Name="Spectrograph_salEvent_loopTimeOutOfRange.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_loopTimeOutOfRange.vi"/>
 	<Item Name="Spectrograph_salEvent_rejectedCommand.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_rejectedCommand.vi"/>
-	<Item Name="Spectrograph_salEvent_reportedDisperserPosition.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_reportedDisperserPosition.vi"/>
-	<Item Name="Spectrograph_salEvent_reportedFilterPosition.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_reportedFilterPosition.vi"/>
 	<Item Name="Spectrograph_salEvent_settingVersions.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_settingVersions.vi"/>
+	<Item Name="Spectrograph_salEvent_spectrographInstrumentInPosition.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_spectrographInstrumentInPosition.vi"/>
 	<Item Name="Spectrograph_salEvent_summaryState.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_summaryState.vi"/>
 	<Item Name="Spectrograph_salEvent_timeout.vi" Type="VI" URL="../VIs/Spectrograph_salEvent_timeout.vi"/>
 	<Item Name="Spectrograph_salProcessor_abort.vi" Type="VI" URL="../VIs/Spectrograph_salProcessor_abort.vi"/>
@@ -264,8 +300,8 @@
 	<Item Name="Spectrograph_salProcessor_disable.vi" Type="VI" URL="../VIs/Spectrograph_salProcessor_disable.vi"/>
 	<Item Name="Spectrograph_salProcessor_enable.vi" Type="VI" URL="../VIs/Spectrograph_salProcessor_enable.vi"/>
 	<Item Name="Spectrograph_salProcessor_exitControl.vi" Type="VI" URL="../VIs/Spectrograph_salProcessor_exitControl.vi"/>
-	<Item Name="Spectrograph_salProcessor_homeLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_salProcessor_homeLinearStage.vi"/>
 	<Item Name="Spectrograph_salProcessor_moveLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_salProcessor_moveLinearStage.vi"/>
+	<Item Name="Spectrograph_salProcessor_setupSpectrograph.vi" Type="VI" URL="../VIs/Spectrograph_salProcessor_setupSpectrograph.vi"/>
 	<Item Name="Spectrograph_salProcessor_standby.vi" Type="VI" URL="../VIs/Spectrograph_salProcessor_standby.vi"/>
 	<Item Name="Spectrograph_salProcessor_start.vi" Type="VI" URL="../VIs/Spectrograph_salProcessor_start.vi"/>
 	<Item Name="Spectrograph_salProcessor_stopAllAxis.vi" Type="VI" URL="../VIs/Spectrograph_salProcessor_stopAllAxis.vi"/>
@@ -277,8 +313,8 @@
 	<Item Name="Spectrograph_waitForCompletion_disable.vi" Type="VI" URL="../VIs/Spectrograph_waitForCompletion_disable.vi"/>
 	<Item Name="Spectrograph_waitForCompletion_enable.vi" Type="VI" URL="../VIs/Spectrograph_waitForCompletion_enable.vi"/>
 	<Item Name="Spectrograph_waitForCompletion_exitControl.vi" Type="VI" URL="../VIs/Spectrograph_waitForCompletion_exitControl.vi"/>
-	<Item Name="Spectrograph_waitForCompletion_homeLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_waitForCompletion_homeLinearStage.vi"/>
 	<Item Name="Spectrograph_waitForCompletion_moveLinearStage.vi" Type="VI" URL="../VIs/Spectrograph_waitForCompletion_moveLinearStage.vi"/>
+	<Item Name="Spectrograph_waitForCompletion_setupSpectrograph.vi" Type="VI" URL="../VIs/Spectrograph_waitForCompletion_setupSpectrograph.vi"/>
 	<Item Name="Spectrograph_waitForCompletion_standby.vi" Type="VI" URL="../VIs/Spectrograph_waitForCompletion_standby.vi"/>
 	<Item Name="Spectrograph_waitForCompletion_start.vi" Type="VI" URL="../VIs/Spectrograph_waitForCompletion_start.vi"/>
 	<Item Name="Spectrograph_waitForCompletion_stopAllAxis.vi" Type="VI" URL="../VIs/Spectrograph_waitForCompletion_stopAllAxis.vi"/>
